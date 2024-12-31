@@ -1,0 +1,82 @@
+2024-12-31 10:37:28,003 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-12-31 10:37:28,010 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:37:28,011 INFO  - Default Quartz.NET properties loaded from embedded resource file
+2024-12-31 10:37:28,011 INFO  - JobFactory set to: OpenImis.RestApi.Scheduler.CustomQuartzJobFactory
+2024-12-31 10:37:28,024 FATAL - An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Unexpected end of expression.) ---> System.FormatException: Unexpected end of expression.
+   at Quartz.CronExpression.BuildExpression(String expression)
+   at Quartz.CronScheduleTriggerBuilderExtensions.WithCronSchedule(TriggerBuilder triggerBuilder, String cronExpression)
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.CreateTrigger(JobMetaData jobMetaData) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 48
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.StartAsync(CancellationToken cancellationToken) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 34
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StartAsync(CancellationToken token)
+---> (Inner Exception #0) System.FormatException: Unexpected end of expression.
+   at Quartz.CronExpression.BuildExpression(String expression)
+   at Quartz.CronScheduleTriggerBuilderExtensions.WithCronSchedule(TriggerBuilder triggerBuilder, String cronExpression)
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.CreateTrigger(JobMetaData jobMetaData) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 48
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.StartAsync(CancellationToken cancellationToken) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 34
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2024-12-31 10:38:00,860 INFO  - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-12-31 10:38:00,869 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:38:00,869 INFO  - Default Quartz.NET properties loaded from embedded resource file
+2024-12-31 10:38:00,869 INFO  - JobFactory set to: OpenImis.RestApi.Scheduler.CustomQuartzJobFactory
+2024-12-31 10:38:00,881 FATAL - An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Unexpected end of expression.) ---> System.FormatException: Unexpected end of expression.
+   at Quartz.CronExpression.BuildExpression(String expression)
+   at Quartz.CronScheduleTriggerBuilderExtensions.WithCronSchedule(TriggerBuilder triggerBuilder, String cronExpression)
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.CreateTrigger(JobMetaData jobMetaData) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 48
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.StartAsync(CancellationToken cancellationToken) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 34
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StartAsync(CancellationToken token)
+---> (Inner Exception #0) System.FormatException: Unexpected end of expression.
+   at Quartz.CronExpression.BuildExpression(String expression)
+   at Quartz.CronScheduleTriggerBuilderExtensions.WithCronSchedule(TriggerBuilder triggerBuilder, String cronExpression)
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.CreateTrigger(JobMetaData jobMetaData) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 48
+   at OpenImis.RestApi.Scheduler.CustomQuartzHostedService.StartAsync(CancellationToken cancellationToken) in /app/OpenImis.RestApi/Scheduler/CustomQuartzHostedService.cs:line 34
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2024-12-31 10:38:25,153 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:38:49,093 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:39:13,805 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:39:38,219 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:40:03,620 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:40:30,133 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:40:53,807 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:41:19,898 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:41:46,059 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:42:12,905 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:42:40,130 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:43:04,155 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:43:28,614 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:43:58,012 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:44:23,906 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:44:48,613 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:45:17,747 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:45:46,826 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:46:13,594 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:46:38,917 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:47:08,573 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:47:38,081 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:48:05,431 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:48:34,340 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:48:57,754 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:49:23,545 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:49:47,340 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:50:14,682 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:50:43,694 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:51:10,099 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:51:33,498 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:52:01,543 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:52:24,758 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:52:49,452 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:53:14,748 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:53:39,293 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:54:06,416 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:54:31,896 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:55:01,315 DEBUG - Batch acquisition of 0 triggers
+2024-12-31 10:55:25,246 DEBUG - Batch acquisition of 0 triggers
