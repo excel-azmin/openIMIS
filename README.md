@@ -4,6 +4,14 @@
 ```
 docker compose up --build -d
 ```
+
+# Default Login Password 
+
+```
+Admin
+admin123
+```
+
 # Change Admin password
 
 ```
